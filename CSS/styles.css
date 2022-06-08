@@ -349,8 +349,6 @@ header {
 .clients-list {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 100%;
 }
 .clients-item {
     width: 170px;
@@ -454,7 +452,9 @@ header {
 
     background-color: #2F303A;
 }
-
+.footer-flex {
+    display: flex;
+}
 .footer-logo {
     display: inline-block;
     margin-bottom: 20px;
@@ -496,6 +496,55 @@ address {
 .footer-tel:focus {
     color: var(--primary-background-color);
 }
+.footer-soc {
+    margin-left: 70px;
+    margin-top: 16px;
+}
+.footer-soc-list {
+    display: flex;
+}
 .footer-item:not(:last-child) {
     margin-bottom: 9px;
 }
+.footer-soc-title {
+    margin-bottom: 20px;
+    margin-top: 0;
+
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--accent-text-color);
+}
+.footer-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.footer-soc-item:first-child {
+    margin-left: 0;
+}
+
+.footer-soc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+    color: var(--accent-text-color);
+    background-color: var(--secondary-text-color);
+}
+
+.footer-soc-icon {
+    fill: currentColor;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: var(--primary-background-color);
+    color: var(--accent-text-color);
