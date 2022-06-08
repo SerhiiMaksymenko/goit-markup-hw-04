@@ -37,10 +37,18 @@
         </nav>
         <ul class="header-list">
           <li class="header-item">
-            <a href="mailto:info@devstudio.com" class="header-post link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="header-post link"
+              ><svg class="header-post-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="header-item">
-            <a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="header-tel link"
+              ><svg class="header-tel-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -64,7 +72,7 @@
           </ul>
           <!--Иконки-->
           <ul class="portfolio-list card-set">
-            <li class="card-set-item">
+            <li class="card-set-item portfolio-shadow">
               <a href="" class="portfolio-link link">
                 <img
                   src="./images/acounts.jpg"
@@ -79,7 +87,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item">
+            <li class="card-set-item portfolio-shadow">
               <a href="" class="portfolio-link link">
                 <img
                   src="./images/basketball-players.jpg"
@@ -94,7 +102,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item">
+            <li class="card-set-item portfolio-shadow">
               <a href="" class="portfolio-link link">
                 <img
                   src="./images/restaurant-seafood.jpg"
@@ -109,7 +117,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item">
+            <li class="card-set-item portfolio-shadow">
               <a href="" class="portfolio-link link">
                 <img
                   src="./images/headphones.jpg"
@@ -124,7 +132,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item">
+            <li class="card-set-item portfolio-shadow">
               <a href="" class="portfolio-link link">
                 <img
                   src="./images/post-boxes.jpg"
@@ -139,7 +147,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item">
+            <li class="card-set-item portfolio-shadow">
               <a href="" class="portfolio-link link">
                 <img
                   src="./images/monitor.jpg"
@@ -154,7 +162,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item">
+            <li class="card-set-item portfolio-shadow">
               <a href="" class="portfolio-link link">
                 <img
                   src="./images/journal.jpg"
@@ -169,7 +177,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item">
+            <li class="card-set-item portfolio-shadow">
               <a href="" class="portfolio-link link">
                 <img src="./images/label.jpg" alt="label" width="370" class="img" />
                 <div class="portfolio-border">
@@ -178,7 +186,7 @@
                 </div>
               </a>
             </li>
-            <li class="card-set-item">
+            <li class="card-set-item portfolio-shadow">
               <a href="" class="portfolio-link link">
                 <img src="./images/notebook.jpg" alt="notebook" width="370" class="img" />
                 <div class="portfolio-border">
@@ -193,17 +201,52 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-      <div class="container">
-        <a href="index.html" class="footer-logo link"><span class="web">Web</span>Studio</a>
-        <address>
-          <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
-        </address>
-        <ul class="footer-list">
-          <li class="footer-item">
-            <a href="mailto:info@devstudio.com" class="footer-post link">info@devstudio.com</a>
-          </li>
-          <li><a href="tel:+380961111111" class="footer-tel link">+38 096 111 11 11</a></li>
-        </ul>
+      <div class="container footer-flex">
+        <div>
+          <a href="index.html" class="footer-logo link"><span class="web">Web</span>Studio</a>
+          <address>
+            <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+          </address>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="mailto:info@devstudio.com" class="footer-post link">info@devstudio.com</a>
+            </li>
+            <li><a href="tel:+380961111111" class="footer-tel link">+38 096 111 11 11</a></li>
+          </ul>
+        </div>
+        <div class="footer-soc">
+          <h3 class="footer-soc-title">присоединяйтесь</h3>
+          <ul class="footer-soc-list">
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link">
+                <svg class="footer-soc-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link">
+                <svg class="footer-soc-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link">
+                <svg class="footer-soc-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link">
+                <svg class="footer-soc-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
