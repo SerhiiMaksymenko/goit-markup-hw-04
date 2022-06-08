@@ -317,9 +317,15 @@ header {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    color: var(--soc-icons-primary-color);
 }
 .team-soc-icon {
-    fill: var(--soc-icons-primary-color);
+    fill: currentColor;
+}
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: var(--primary-background-color);
+    color: var(--accent-text-color);
 }
 
 /*ФИЛЬТР КНОПКИ Portfolio*/
