@@ -242,9 +242,18 @@ header {
 
   color: var(--secondary-text-color);
 }
-.qualities-icon {
-  background-image: linear-gradient(rgba(245, 244, 250, 1), rgba(245, 244, 250, 1));
+.svg-container {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
+
 /*ЧЕМ МЫ ЗАНИМАЕМСЯ index.html*/
 .work {
   padding-top: 47px;
@@ -472,6 +481,7 @@ header {
 }
 .footer-flex {
   display: flex;
+  align-items: baseline;
 }
 .footer-logo {
   display: inline-block;
@@ -514,9 +524,9 @@ address {
 .footer-tel:focus {
   color: var(--primary-background-color);
 }
+
 .footer-soc {
   margin-left: 70px;
-  margin-top: 16px;
 }
 .footer-soc-list {
   display: flex;
