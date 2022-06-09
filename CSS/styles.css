@@ -20,15 +20,19 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 p {
   margin: 0;
 }
+
 img {
   display: block;
 }
+
 .link {
   text-decoration: none;
 }
+
 /*CONTAINER*/
 .container {
   width: 1200px;
@@ -37,6 +41,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -58,14 +63,17 @@ img {
 header {
   border-bottom: 1px solid #ececec;
 }
+
 .header-flex {
   display: flex;
   align-items: center;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
 }
+
 .nav-list {
   display: flex;
 }
@@ -73,6 +81,7 @@ header {
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
+
 .header-list {
   display: flex;
   margin-left: auto;
@@ -81,6 +90,7 @@ header {
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
+
 .nav-link {
   display: block;
   padding-top: 32px;
@@ -119,13 +129,16 @@ header {
 .header-post:focus {
   color: var(--primary-background-color);
 }
+
 .header-tel:hover,
 .header-tel:focus {
   color: var(--primary-background-color);
 }
+
 .nav-link.current {
   color: var(--primary-background-color);
 }
+
 .header-post-icon,
 .header-tel-icon {
   margin-right: 10px;
@@ -148,6 +161,7 @@ header {
 .web {
   color: var(--primary-background-color);
 }
+
 /*МЭЙН imdex.html*/
 .hero {
   margin: 0 auto;
@@ -162,6 +176,7 @@ header {
   background-position: center;
   background-size: cover;
 }
+
 .hero-title {
   width: 696px;
   margin-left: auto;
@@ -199,6 +214,7 @@ header {
   border-radius: 4px;
   border: none;
 }
+
 .service-btn:hover,
 .service-btn:focus {
   background-color: #188ce8;
@@ -217,12 +233,15 @@ header {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .qualities {
   padding-bottom: 47px;
 }
+
 .qualities-list {
   --item: 4;
 }
+
 .qualities-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -235,6 +254,7 @@ header {
 
   color: var(--primary-text-color);
 }
+
 .qualities-text {
   font-size: 14px;
   line-height: 1.72;
@@ -242,6 +262,7 @@ header {
 
   color: var(--secondary-text-color);
 }
+
 .svg-container {
   display: flex;
   justify-content: center;
@@ -258,6 +279,7 @@ header {
 .work {
   padding-top: 47px;
 }
+
 .work-list {
   --item: 3;
 }
@@ -279,9 +301,11 @@ header {
 .team {
   background-color: #f5f4fa;
 }
+
 .team-list {
   --item: 4;
 }
+
 .team-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -294,6 +318,7 @@ header {
 
   color: var(--primary-text-color);
 }
+
 .item-border {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -311,6 +336,7 @@ header {
 
   color: var(--primary-text-color);
 }
+
 .item-text {
   font-size: 16px;
   line-height: 1.19;
@@ -319,7 +345,8 @@ header {
 
   color: var(--secondary-text-color);
 }
-/*ИКОНКИ СОЦИАЛЬНЫХ СЕТЕЙ*/
+
+/*ИКОНКИ СОЦИАЛЬНЫХ СЕТЕЙ КОМАНДА*/
 .team-soc-list {
   display: flex;
   justify-content: center;
@@ -327,14 +354,17 @@ header {
   padding-top: 16px;
   padding-bottom: 30px;
 }
+
 .team-soc-item {
   width: 44px;
   height: 44px;
   margin-left: 10px;
 }
+
 .team-soc-item:first-child {
   margin-left: 0;
 }
+
 .team-soc-link {
   display: flex;
   align-items: center;
@@ -346,16 +376,18 @@ header {
   border-radius: 50%;
   color: var(--soc-icons-primary-color);
 }
+
 .team-soc-icon {
   fill: currentColor;
 }
+
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--primary-background-color);
   color: var(--accent-text-color);
 }
-/*КЛИЕНТЫ*/
 
+/*КЛИЕНТЫ*/
 .clients-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -368,18 +400,22 @@ header {
 
   color: var(--primary-text-color);
 }
+
 .clients-list {
   display: flex;
   justify-content: center;
 }
+
 .clients-item {
   width: 170px;
   height: 92px;
   margin-left: 30px;
 }
+
 .clients-item:first-child {
   margin-left: 0;
 }
+
 .clients-link {
   display: flex;
   align-content: center;
@@ -393,9 +429,11 @@ header {
   border-radius: 4px;
   color: var(--soc-icons-primary-color);
 }
+
 .clients-icon {
   fill: currentColor;
 }
+
 .clients-link:hover,
 .clients-link:focus {
   color: var(--primary-background-color);
@@ -409,9 +447,11 @@ header {
   justify-content: center;
   margin-bottom: 50px;
 }
+
 .item-btn:not(:last-child) {
   margin-right: 8px;
 }
+
 .filter-btn {
   padding: 6px 22px;
 
@@ -426,10 +466,12 @@ header {
   color: var(--primary-text-color);
   cursor: pointer;
 }
+
 .filter-btn.current {
   color: var(--accent-text-color);
   background-color: var(--primary-background-color);
 }
+
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--accent-text-color);
@@ -437,6 +479,7 @@ header {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 /*ИКОНКИ Portfolio*/
 .portfolio-border {
   padding: 20px 24px;
@@ -448,6 +491,7 @@ header {
 .portfolio-link {
   text-decoration: none;
 }
+
 .portfolio-title {
   margin-top: 20px;
   margin-bottom: 4px;
@@ -459,6 +503,7 @@ header {
 
   color: var(--primary-text-color);
 }
+
 .portfolio-text {
   margin: 0;
 
@@ -468,10 +513,12 @@ header {
 
   color: var(--secondary-text-color);
 }
+
 .portfolio-shadow:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 /*ФУТЕР*/
 .footer {
   padding-top: 60px;
@@ -479,10 +526,12 @@ header {
 
   background-color: #2f303a;
 }
+
 .footer-flex {
   display: flex;
   align-items: baseline;
 }
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -495,10 +544,12 @@ header {
 
   color: var(--accent-text-color);
 }
+
 address {
   font-style: normal;
   margin: 0;
 }
+
 .footer-address {
   margin-bottom: 9px;
   font-size: 14px;
@@ -507,6 +558,7 @@ address {
 
   color: var(--accent-text-color);
 }
+
 .footer-post,
 .footer-tel {
   font-size: 14px;
@@ -520,6 +572,7 @@ address {
 .footer-post:focus {
   color: var(--primary-background-color);
 }
+
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--primary-background-color);
@@ -528,12 +581,15 @@ address {
 .footer-soc {
   margin-left: 70px;
 }
+
 .footer-soc-list {
   display: flex;
 }
+
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .footer-soc-title {
   margin-bottom: 20px;
   margin-top: 0;
@@ -545,6 +601,7 @@ address {
 
   color: var(--accent-text-color);
 }
+
 .footer-soc-item {
   width: 44px;
   height: 44px;
