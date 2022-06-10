@@ -266,10 +266,10 @@ header {
 .svg-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 
-  padding-top: 25px;
-  padding-bottom: 25px;
   margin-bottom: 30px;
+  height: 120px;
 
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -320,13 +320,18 @@ header {
 }
 
 .item-border {
+  background-color: var(--accent-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-wrapper {
+  padding: 30px 0;
+}
+
 .item-title {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
 
   font-size: 16px;
@@ -351,8 +356,7 @@ header {
   display: flex;
   justify-content: center;
 
-  padding-top: 16px;
-  padding-bottom: 30px;
+  margin-top: 16px;
 }
 
 .team-soc-item {
@@ -438,7 +442,6 @@ header {
 .clients-link:focus {
   color: var(--primary-background-color);
   border: 1px solid var(--primary-background-color);
-  border-radius: 4px;
 }
 
 /*ФИЛЬТР КНОПКИ Portfolio*/
@@ -489,7 +492,13 @@ header {
 }
 
 .portfolio-link {
-  text-decoration: none;
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-title {
@@ -512,11 +521,6 @@ header {
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
-}
-
-.portfolio-shadow:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /*ФУТЕР*/
